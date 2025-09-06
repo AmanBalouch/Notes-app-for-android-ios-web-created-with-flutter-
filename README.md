@@ -1,16 +1,32 @@
-# notes
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📒 Notes Application
+A simple and efficient Notes Application built with Flutter. It allows users to create, edit, and manage their notes with a clean interface. The app integrates SQLite for local database storage and uses Shared Preferences for secure login and signup functionality.
+🚀 Features
+🔑 User Authentication
+Signup and Login with Shared Preferences.
+Secure session management.
+📝 Notes Management
+Add, edit, and delete notes.
+Save notes locally using SQLite.
+Persistent storage even after app restart.
+🎨 User Interface
+Simple and minimal design.
+User-friendly navigation.
+🛠️ Tech Stack
+Flutter – Cross-platform framework
+Dart – Programming language
+SQLite – Local database for storing notes
+Shared Preferences – Lightweight storage for authentication
+📂 Project Structure
+lib/
+│── main.dart              # Entry point
+│── screens/               # Login, Signup, Notes screens
+│── database/              # SQLite helper
+│── helpers/                 # Shared preferences helper
+⚙️ Installation & Setup
+Clone the repository:
+git clone https://github.com/your-username/flutter-notes-app.git
+cd flutter-notes-app
+Install dependencies:
+flutter pub get
+Run the app:
+flutter run
