@@ -20,8 +20,9 @@ Shared Preferences – Lightweight storage for authentication
 lib/
 │── main.dart              # Entry point
 │── screens/               # Login, Signup, Notes screens
-│── database/              # SQLite helper
-│── helpers/                 # Shared preferences helper
+│── providers/              
+│── helpers/   
+│── widgets/    
 ⚙️ Installation & Setup
 Clone the repository:
 git clone [https://github.com/your-username/flutter-notes-app.git](https://github.com/AmanBalouch/Notes-app-for-android-ios-web-created-with-flutter-.git)
