@@ -24,7 +24,7 @@ lib/
 │── helpers/                 # Shared preferences helper
 ⚙️ Installation & Setup
 Clone the repository:
-git clone https://github.com/your-username/flutter-notes-app.git
+git clone [https://github.com/your-username/flutter-notes-app.git](https://github.com/AmanBalouch/Notes-app-for-android-ios-web-created-with-flutter-.git)
 cd flutter-notes-app
 Install dependencies:
 flutter pub get
